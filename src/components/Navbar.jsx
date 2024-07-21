@@ -3,7 +3,7 @@ import { Logo } from "./Logo"
 export const Navbar = () => {
     return (
         <div className="navbar__Container">
-        <h1>Tienda MMARG</h1>
+        <h1>TIENDA MMARG</h1>
         <Logo />
         <ul>
             <li><a href="#">Home</a></li>

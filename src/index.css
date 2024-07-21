@@ -3,7 +3,7 @@
   box-sizing: border-box;}
   .navbar__Container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
     background-color: lightblue;
