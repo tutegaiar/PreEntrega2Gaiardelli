@@ -7,7 +7,7 @@ export const Item = ({ product }) => {
       </div>
       <div className="bodyCard">
         <h2>{product.producto}</h2>
-        <p>{product.precio}</p>
+        <p>${product.precio}</p>
       </div>
       <Link to={`/item/${product.id}`}>
         <button>Comprar</button>

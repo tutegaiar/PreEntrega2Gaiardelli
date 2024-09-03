@@ -73,6 +73,27 @@ img {
   margin: 10px 0px;
   width: 20px;
 }
+.carritoContenedor {
+  display: flex;
+  width: 20%;
+  height: 40px;
+  padding: 10px;
+  gap: 4px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.carritoContenedor span {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+}
 
 .categorias__container {
   display: flex;
